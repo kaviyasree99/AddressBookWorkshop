@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddressBookTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-21T03:51:37" hostname="KAVIYA-LAPTOP" time="0.063">
+  <properties/>
+  <testcase name="whenGivenAddressbook_whenAdded_shouldReturnContactList()" classname="AddressBookTest" time="0.063"/>
+  <system-out><![CDATA[Welcome to Address book
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
