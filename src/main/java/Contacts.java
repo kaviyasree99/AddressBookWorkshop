@@ -69,16 +69,5 @@ public class Contacts {
         this.email = email;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Contacts contact = (Contacts) o;
-        return zip == contact.zip && phoneNumber == contact.phoneNumber && Objects.equals(firstName, contact.firstName) && Objects.equals(lastName, contact.lastName) && Objects.equals(city, contact.city) && Objects.equals(state, contact.state) && Objects.equals(email, contact.email);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(firstName, lastName, city, state, zip, phoneNumber, email);
-    }
 }

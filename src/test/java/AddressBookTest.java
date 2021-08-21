@@ -10,8 +10,7 @@ public class AddressBookTest {
     @Test
     public void whenGivenAddressbook_whenAdded_shouldReturnContactList() {
         addressBook = new AddressBook();
-        addressBook.message();
-        Contacts contact = new Contacts("Kaviya", "Sree", "Chennai", "Tamilnadu", 560099
+        Contacts contact = new Contacts("Kaviya", "Sree", "Chennai", "Tamilnadu", 560009
                 , 966334555, "kaviyasreer@gmail.com");
         addressBook.addNewContact(contact);
 
